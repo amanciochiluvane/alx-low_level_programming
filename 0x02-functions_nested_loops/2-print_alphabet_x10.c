@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- *print_alphabet_x10 - chec the code
+ * print_alphabet_x10 - check the code
  *
- *Return - 0
+ * Return - return 0
  */
 
 void print_alphabet_x10(void)
@@ -20,4 +20,8 @@ while (a <= 'z')
 putchar(a);
 a++;
 }
+putchar('\n');
+b++;
 }
+}
+
