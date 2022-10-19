@@ -13,7 +13,7 @@ int letter;
 
 for (letter = 'a'; letter < = 'z'; letter++)
 
-	_putchar (letter + "\n");
+	printf(letter + "\n");
 }
-_putchar (10);
+printf(10);
 }
