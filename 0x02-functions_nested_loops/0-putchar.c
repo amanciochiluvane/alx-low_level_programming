@@ -5,8 +5,10 @@
  *
  * Return:return 0
  */
-char main(void)
+int main(void)
 {
-	putchar("_putchar");
+	printf("_putchar");
+
+	return (0);
 }
 
