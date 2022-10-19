@@ -1,5 +1,5 @@
 #include "main.h"
-#include <studio.h>
+#include <stdio.h>
 
 /**
  *print_alphabet - check the code
