@@ -12,6 +12,7 @@ int len = find_strlen(s);
 
 if (!(*s))
 	return (1);
+
 return (check_palindrome(s, len, index));
 }
 
@@ -27,7 +28,7 @@ int len = 0;
 if (*(s + len))
 {
 len++;
-len++;
+len += find_strlen(s + len);
 }
 return (len);
 }
